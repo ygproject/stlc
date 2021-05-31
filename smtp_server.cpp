@@ -132,7 +132,7 @@ void sendCallback(SendStatus msg) {
 
 void send_email()
 {
-    String emailMessage = String("To Tired for this shit");
+    String emailMessage = String("message");
     if(sendEmailNotification(emailMessage))
     {
       Serial.println(emailMessage);

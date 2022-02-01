@@ -2,7 +2,7 @@
 //source/**/*secrets.h
 
 //wifi
-#define WIFI_NAME "HUJI-guest"
+#define WIFI_NAME ""
 #define WIFI_PASSWORD  ""
 
 

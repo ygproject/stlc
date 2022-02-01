@@ -22,11 +22,7 @@ void createDir(fs::FS &fs, const char * path)
 int readFile(fs::FS &fs, const char * path)
 {
     Serial.printf("Reading file: %s\n", path);
-    File file = fs.ope
-    
-    
-    
-    n(path);
+    File file = fs.open(path);
     if(!file)
     {
       Serial.println("Failed to open file for reading");
